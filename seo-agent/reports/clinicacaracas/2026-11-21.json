@@ -1,0 +1,92 @@
+{
+  "site": "https://clinicacaracas.es",
+  "site_id": "clinicacaracas",
+  "generated_at": "2026-11-21T13:26:05+00:00",
+  "pages_crawled": 60,
+  "checks_evaluated": 1453,
+  "score": 99.5,
+  "summary": {
+    "errors": 5,
+    "warnings": 1,
+    "auto_fixable": 0,
+    "manual": 0,
+    "awaiting_approval": 6,
+    "by_check": {
+      "H1_SINGLE": 3,
+      "SCHEMA_SINGLE_ENTITY": 1,
+      "SCHEMA_HOURS": 1,
+      "GEO_META_REGION": 1
+    }
+  },
+  "inconclusive": [
+    {
+      "check": "SITE_CANONICAL_HOST",
+      "url": "http://clinicacaracas.es/",
+      "message": "No verificable desde el entorno de ejecución"
+    },
+    {
+      "check": "SITE_CANONICAL_HOST",
+      "url": "http://www.clinicacaracas.es/",
+      "message": "No verificable desde el entorno de ejecución"
+    }
+  ],
+  "issues": [
+    {
+      "check": "H1_SINGLE",
+      "severity": "error",
+      "fixability": "approval",
+      "url": "https://clinicacaracas.es/cheque-aniversario/",
+      "message": "La página tiene 0 H1: []",
+      "fix_hint": "Solución preparada, pendiente de aprobación humana: seo-agent/pending/clinicacaracas-H1_SINGLE.md",
+      "evidence": null
+    },
+    {
+      "check": "H1_SINGLE",
+      "severity": "error",
+      "fixability": "approval",
+      "url": "https://clinicacaracas.es/promociones-aniversario/",
+      "message": "La página tiene 0 H1: []",
+      "fix_hint": "Solución preparada, pendiente de aprobación humana: seo-agent/pending/clinicacaracas-H1_SINGLE.md",
+      "evidence": null
+    },
+    {
+      "check": "H1_SINGLE",
+      "severity": "error",
+      "fixability": "approval",
+      "url": "https://clinicacaracas.es/solicitud-de-cita/",
+      "message": "La página tiene 0 H1: []",
+      "fix_hint": "Solución preparada, pendiente de aprobación humana: seo-agent/pending/clinicacaracas-H1_SINGLE.md",
+      "evidence": null
+    },
+    {
+      "check": "SCHEMA_HOURS",
+      "severity": "error",
+      "fixability": "approval",
+      "url": "https://clinicacaracas.es/",
+      "message": "Horario en schema no coincide. Sobra: [] Falta: [('Friday', '10:00', '14:00'), ('Friday', '16:00', '20:00'), ('Monday', '10:00', '14:00'), ('Monday', '16:00', '20:00'), ('Thursday', '10:00', '14:00'), ('Thursday', '16:00', '20:00'), ('Tuesday', '10:00', '14:00'), ('Tuesday', '16:00', '20:00'), ('Wednesday', '10:00', '14:00'), ('Wednesday', '16:00', '20:00')]",
+      "fix_hint": "Solución preparada, pendiente de aprobación humana: seo-agent/pending/clinicacaracas-schema-unificado.html",
+      "evidence": null
+    },
+    {
+      "check": "SCHEMA_SINGLE_ENTITY",
+      "severity": "error",
+      "fixability": "approval",
+      "url": "https://clinicacaracas.es/",
+      "message": "Hay 2 entidades de negocio local distintas en la portada: ['https://clinicacaracas.es/#clinica', 'https://clinicacaracas.es/#organization']. Google puede interpretarlas como negocios diferentes.",
+      "fix_hint": "Solución preparada, pendiente de aprobación humana: seo-agent/pending/clinicacaracas-schema-unificado.html",
+      "evidence": [
+        "https://clinicacaracas.es/#clinica",
+        "https://clinicacaracas.es/#organization"
+      ]
+    },
+    {
+      "check": "GEO_META_REGION",
+      "severity": "warning",
+      "fixability": "approval",
+      "url": "https://clinicacaracas.es/",
+      "message": "<meta name=geo.region> = «España» (debe ser código ISO 3166-2 «ES-MD»)",
+      "fix_hint": "Solución preparada, pendiente de aprobación humana: seo-agent/pending/clinicacaracas-GEO_META_REGION.md",
+      "evidence": null
+    }
+  ]
+}

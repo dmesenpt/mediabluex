@@ -116,5 +116,14 @@
   "forbidden_terms": [
     "BESO"
   ],
-  "_comment_forbidden": "Marcas/nombres ajenos que nunca deben aparecer en títulos ni descripciones (restos de plantillas o negocios anteriores)."
+  "_comment_forbidden": "Marcas/nombres ajenos que nunca deben aparecer en títulos ni descripciones (restos de plantillas o negocios anteriores).",
+  "awaiting_approval": {
+    "SCHEMA_SINGLE_ENTITY": "seo-agent/pending/clinicacaracas-schema-unificado.html",
+    "SCHEMA_HOURS": "seo-agent/pending/clinicacaracas-schema-unificado.html",
+    "H1_SINGLE:https://clinicacaracas.es/solicitud-de-cita/": "seo-agent/pending/clinicacaracas-H1_SINGLE.md",
+    "H1_SINGLE:https://clinicacaracas.es/cheque-aniversario/": "seo-agent/pending/clinicacaracas-H1_SINGLE.md",
+    "H1_SINGLE:https://clinicacaracas.es/promociones-aniversario/": "seo-agent/pending/clinicacaracas-H1_SINGLE.md",
+    "GEO_META_REGION": "seo-agent/pending/clinicacaracas-GEO_META_REGION.md"
+  },
+  "_comment_awaiting": "Incidencias con solución preparada que necesitan aprobación humana. Siguen restando puntos; el agente no las reintenta. Bórralas de aquí cuando las apliques."
 }

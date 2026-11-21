@@ -1,0 +1,65 @@
+<!--
+  PENDIENTE DE APROBACIÓN HUMANA (el agente no puede editar código del <head> por seguridad).
+
+  QUÉ HACER (2 minutos):
+  1. wp-admin → Code Snippets / "Insert Headers and Footers" (WPCode) → Header.
+  2. Sustituye el bloque que empieza por  <!-- Schema clínica (Clínica Caracas) -->  hasta su </script>
+     por TODO el bloque de abajo. Deja intactos Ahrefs Analytics y el CSS que hay debajo.
+  3. Guarda y purga la caché (SiteGround → Speed Optimizer → Purge cache).
+  4. Valida en https://search.google.com/test/rich-results con https://clinicacaracas.es/
+
+  POR QUÉ:
+  - El bloque actual usa "@id": ".../#clinica" y Yoast publica ".../#organization": Google ve DOS negocios.
+  - Ambos repiten dirección/teléfono/coordenadas con valores distintos (coordenadas a ~30 m).
+  - Con el mismo @id, Google fusiona este bloque con el de Yoast: un solo negocio, sin contradicciones.
+  - Se quitan los campos que ya aporta Yoast Local (nombre, dirección, teléfono, geo, precio, logo).
+  - Se MANTIENE aquí el horario partido (10-14 y 16-20), porque Yoast Local no sabe publicarlo
+    (lo convierte en 10:00-20:00, que es falso).
+  - ⚠ Confirma en tu ficha de Google Business Profile cuál es el pin correcto:
+    Yoast usa 40.4312016, -3.606304 (el bloque viejo usaba 40.4314208, -3.606006).
+-->
+<!-- Schema clínica (Clínica Caracas) — unificado con Yoast (@id #organization) -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": ["Dentist", "MedicalClinic"],
+ "@id": "https://clinicacaracas.es/#organization",
+ "alternateName": "Clínica Caracas Madrid",
+ "hasMap": "https://maps.google.com/?cid=909166465684734523",
+ "areaServed": [
+  {"@type": "Place", "name": "Las Rosas, Madrid"},
+  {"@type": "Place", "name": "San Blas-Canillejas, Madrid"},
+  {"@type": "Place", "name": "Canillejas, Madrid"},
+  {"@type": "Place", "name": "Rejas, Madrid"},
+  {"@type": "City", "name": "Madrid"}
+ ],
+ "openingHoursSpecification": [
+  {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "10:00", "closes": "14:00"},
+  {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "16:00", "closes": "20:00"}
+ ],
+ "medicalSpecialty": ["Dentistry"],
+ "availableService": [
+  {"@type": "MedicalProcedure", "name": "Implantes dentales"},
+  {"@type": "MedicalProcedure", "name": "Ortodoncia"},
+  {"@type": "MedicalProcedure", "name": "Carillas dentales"},
+  {"@type": "MedicalProcedure", "name": "Blanqueamiento dental"},
+  {"@type": "MedicalProcedure", "name": "Tratamiento de arrugas de expresión"},
+  {"@type": "MedicalProcedure", "name": "Ácido hialurónico"},
+  {"@type": "MedicalProcedure", "name": "Inductores de colágeno"}
+ ],
+ "employee": [
+  {"@type": "Person", "name": "Dra. Elimar Goncalves", "jobTitle": "Odontóloga"},
+  {"@type": "Person", "name": "Dr. Iván Campos", "jobTitle": "Médico estético"}
+ ],
+ "contactPoint": [
+  {"@type": "ContactPoint", "telephone": "+34913240238", "contactType": "reservations", "availableLanguage": ["es"]},
+  {"@type": "ContactPoint", "telephone": "+34624343802", "contactType": "customer service", "availableLanguage": ["es"]}
+ ],
+ "sameAs": [
+  "https://maps.google.com/?cid=909166465684734523",
+  "https://share.google/l7pSARN73DUWsoBJg",
+  "https://www.facebook.com/profile.php?id=61567725112351",
+  "https://www.instagram.com/clinicacaracasmadrid/"
+ ]
+}
+</script>

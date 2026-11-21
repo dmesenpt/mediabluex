@@ -218,6 +218,10 @@ class Audit:
     # registra una evaluación; si ok es False añade incidencia
     def check(self, cid, ok, severity, url, msg, fix="manual", hint="", evidence=None):
         self.checks_run[(cid, severity)] += 1
+        aw = self.cfg.get("awaiting_approval", {})
+        pending = aw.get(f"{cid}:{url}") or aw.get(cid)
+        if not ok and pending:
+            fix, hint = "approval", f"Solución preparada, pendiente de aprobación humana: {pending}"
         if not ok:
             self.issues.append({"check": cid, "severity": severity, "fixability": fix,
                                 "url": url, "message": msg, "fix_hint": hint,
@@ -364,7 +368,8 @@ class Audit:
         empty = [i.get("src") or i.get("data-src") for i in p.imgs
                  if i.get("alt", None) == "" and "/uploads/" in (i.get("src") or i.get("data-src") or "")
                  and not (i.get("src") or "").endswith(".svg")
-                 and i.get("role") != "presentation" and i.get("aria-hidden") != "true"]
+                 and i.get("role") != "presentation" and i.get("aria-hidden") != "true"
+                 and "icon" not in i.get("class", "")]   # iconos junto a texto: alt="" es lo correcto (WCAG)
         self.check("IMG_ALT_DESCRIPTIVE", not empty, "warning", url,
                    f"{len(empty)} imágenes de contenido con alt vacío", "auto",
                    "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.", empty[:15])
@@ -579,6 +584,7 @@ class Audit:
                 "warnings": sum(1 for i in self.issues if i["severity"] == "warning"),
                 "auto_fixable": sum(1 for i in self.issues if i["fixability"] == "auto"),
                 "manual": sum(1 for i in self.issues if i["fixability"] == "manual"),
+                "awaiting_approval": sum(1 for i in self.issues if i["fixability"] == "approval"),
                 "by_check": dict(sorted(by_check.items(), key=lambda kv: -kv[1])),
             },
             "inconclusive": self.inconclusive,
@@ -591,7 +597,7 @@ def to_markdown(r):
     out = [f"# Auditoría SEO Local — {r['site']}",
            f"_Generada: {r['generated_at']}_\n",
            f"**Puntuación: {r['score']} / 100** · Páginas: {r['pages_crawled']} · Comprobaciones: {r['checks_evaluated']}",
-           f"· Errores: {s['errors']} · Avisos: {s['warnings']} · Auto-reparables: {s['auto_fixable']} · Manuales: {s['manual']}\n",
+           f"· Errores: {s['errors']} · Avisos: {s['warnings']} · Auto-reparables: {s['auto_fixable']} · Manuales: {s['manual']} · Esperando aprobación: {s['awaiting_approval']}\n",
            "## Resumen por comprobación", "| Comprobación | Incidencias |", "|---|---|"]
     out += [f"| `{k}` | {v} |" for k, v in s["by_check"].items()]
     out.append("\n## Incidencias")
@@ -624,7 +630,7 @@ def main():
         print(f"Informe: {d / (day + '.md')}")
     s = rep["summary"]
     print(f"Puntuación {rep['score']}/100 · errores {s['errors']} · avisos {s['warnings']} · "
-          f"auto {s['auto_fixable']} · manual {s['manual']}")
+          f"auto {s['auto_fixable']} · manual {s['manual']} · esperando aprobación {s['awaiting_approval']}")
     for k, v in s["by_check"].items():
         print(f"  {k:28s} {v}")
     if a.urls:
