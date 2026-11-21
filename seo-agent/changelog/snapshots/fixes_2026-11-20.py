@@ -1,0 +1,38 @@
+# Correcciones redactadas en la ejecución inicial (2026-11-20). (post_id, url_slug, campo, valor_anterior, valor_nuevo)
+T="_yoast_wpseo_title"; D="_yoast_wpseo_metadesc"
+FIXES = [
+ (244778,"acido-hialuronico-madrid",T,"Ácido hialurónico en Madrid · Labios, pómulos y surcos | Clínica Caracas","Ácido hialurónico en Madrid · Labios y pómulos | Clínica Caracas"),
+ (244403,"armonizacion-facial-en-madrid-equilibrio-proporcion-y-resultados-naturales",T,None,"Armonización facial en Madrid: resultados naturales | Clínica Caracas"),
+ (244586,"aviso-legal",T,None,"Aviso legal | Clínica Caracas, Las Rosas (Madrid)"),
+ (244399,"beneficios-del-dermapen-para-que-sirve-el-microneedling-y-que-puede-mejorar",T,None,"Dermapen y microneedling: beneficios | Clínica Caracas Madrid"),
+ (244783,"blanqueamiento-dental-madrid",T,"Blanqueamiento dental en Madrid · En clínica y en casa | Clínica Caracas","Blanqueamiento dental en Madrid · Clínica y casa | Clínica Caracas"),
+ (244815,"dentista-madrid",T,"Dentista en Madrid · Implantes, ortodoncia y carillas | Clínica Caracas","Dentista en Madrid · Implantes y ortodoncia | Clínica Caracas"),
+ (243374,"equipo",T,None,"Equipo médico y dental en Las Rosas, Madrid | Clínica Caracas"),
+ (244715,"inductores-de-colageno-madrid",T,"Inductores de colágeno en Las Rosas (San Blas), Madrid | Clínica Caracas","Inductores de colágeno en Las Rosas, Madrid | Clínica Caracas"),
+ (244706,"medicina-estetica-facial-las-rosas",T,"Medicina estética facial en Las Rosas (San Blas), Madrid | Clínica Caracas","Medicina estética facial en Las Rosas, Madrid | Clínica Caracas"),
+ (244394,"neuromoduladores-en-madrid-para-arrugas-de-expresion-que-son-y-que-resultados-esperar",T,None,"Neuromoduladores en Madrid: qué son y resultados | Clínica Caracas"),
+ (244071,"ortodoncia",T,"Ortodoncia en Las Rosas (Madrid): brackets e invisible – Clínica Caracas","Ortodoncia en Las Rosas, Madrid · Brackets | Clínica Caracas"),
+ (244779,"revitalizador-ojeras-madrid",T,"Revitalizador de ojeras en Madrid · Mirada descansada | Clínica Caracas","Revitalizador de ojeras en Madrid · Mirada fresca | Clínica Caracas"),
+ (244777,"skinbooster-madrid",T,"Skinbooster en Madrid · Hidratación profunda de la piel | Clínica Caracas","Skinbooster en Madrid · Piel hidratada y luminosa | Clínica Caracas"),
+ (244401,"urgencias-dentales-en-san-blas-madrid-que-hacer-ante-dolor-infeccion-o-un-diente-roto",T,None,"Urgencias dentales en San Blas, Madrid: qué hacer | Clínica Caracas"),
+ (244652,"valoracion-medica",T,"Valoración médica estética online – Clínica Caracas, Las Rosas (Madrid)","Valoración médica estética online | Clínica Caracas, Las Rosas"),
+ (244322,"neuromoduladores-botox-madrid-las-rosas",T,"Neuromoduladores y Bótox en Madrid | Clínica Caracas","Neuromoduladores y bótox en Las Rosas, Madrid | Clínica Caracas"),
+ # meta descriptions ausentes
+ (244403,"armonizacion-facial-en-madrid-equilibrio-proporcion-y-resultados-naturales",D,None,"Armonización facial en Madrid: equilibrio, proporción y resultados naturales. Valoración médica con el Dr. Iván Campos en Las Rosas (San Blas)."),
+ (244586,"aviso-legal",D,None,"Aviso legal de Clínica Caracas (Jamsa Medical SL), clínica dental y de medicina estética en Calle Suecia 77, Las Rosas, Madrid."),
+ (244399,"beneficios-del-dermapen-para-que-sirve-el-microneedling-y-que-puede-mejorar",D,None,"Beneficios del Dermapen: para qué sirve el microneedling y qué puede mejorar en la piel. Valoración médica en Clínica Caracas, Las Rosas (Madrid)."),
+ (244691,"neuromoduladores-madrid",D,None,"Neuromoduladores en Madrid (San Blas – Las Rosas): suavizan las arrugas de expresión sin perder naturalidad. Valoración con el Dr. Iván Campos."),
+ (244186,"politica-de-cookies",D,None,"Política de cookies de clinicacaracas.es: qué cookies usamos, para qué y cómo configurarlas. Clínica Caracas, Las Rosas (Madrid)."),
+ (243126,"politica-de-privacidad",D,None,"Política de privacidad de Clínica Caracas (Jamsa Medical SL): cómo tratamos y protegemos tus datos personales y cómo ejercer tus derechos."),
+ (244401,"urgencias-dentales-en-san-blas-madrid-que-hacer-ante-dolor-infeccion-o-un-diente-roto",D,None,"Urgencia dental en San Blas, Madrid: qué hacer ante dolor de muelas, infección o un diente roto. Llámanos al 913 240 238 en Clínica Caracas."),
+ # meta descriptions demasiado largas
+ (244492,"cheque-aniversario",D,"Cheque aniversario de Clínica Caracas en Las Rosas (Madrid) para tratamientos de odontología y medicina estética. Consulta las condiciones y pide cita: 913 240 238.","Cheque aniversario de Clínica Caracas en Las Rosas (Madrid) para odontología y medicina estética. Consulta las condiciones y pide cita: 913 240 238."),
+ (244815,"dentista-madrid",D,"Clínica dental en Madrid (Las Rosas, San Blas): ortodoncia, implantes, carillas y blanqueamiento con la Dra. Elimar Goncalves. Diagnóstico digital y financiación hasta 36 meses.","Clínica dental en Madrid (Las Rosas, San Blas): ortodoncia, implantes, carillas y blanqueamiento con la Dra. Elimar Goncalves. Financiación hasta 36 meses."),
+ (244781,"implantes-dentales-madrid",D,"Implantes dentales en Las Rosas (San Blas, Madrid): unitarios, múltiples y prótesis fija. Diagnóstico digital, presupuesto por escrito y financiación hasta 36 meses.","Implantes dentales en Las Rosas (San Blas, Madrid): unitarios, múltiples y prótesis fija. Diagnóstico digital y financiación hasta 36 meses."),
+ (244706,"medicina-estetica-facial-las-rosas",D,"Valoración médica en medicina estética facial en Las Rosas, San Blas (Madrid). Dr. Iván Campos, médico colegiado. Te explicamos opciones, riesgos y plazos. Pide cita.","Medicina estética facial en Las Rosas, San Blas (Madrid). Dr. Iván Campos, médico colegiado: te explicamos opciones, riesgos y plazos. Pide cita."),
+ (244807,"medicina-estetica-las-rosas",D,"Medicina estética en el barrio de Las Rosas, junto al Metro (L2). Valoración médica con el Dr. Iván Campos: neuromoduladores, ácido hialurónico, skinbooster y ojeras.","Medicina estética en Las Rosas, junto al Metro (L2). Valoración con el Dr. Iván Campos: neuromoduladores, ácido hialurónico, skinbooster y ojeras."),
+ (244805,"medicina-estetica-madrid",D,"Clínica de medicina estética en Madrid (Las Rosas, San Blas). Neuromoduladores, ácido hialurónico, skinbooster y ojeras con el Dr. Iván Campos. Valoración sin compromiso.","Medicina estética en Madrid (Las Rosas, San Blas): neuromoduladores, ácido hialurónico, skinbooster y ojeras con el Dr. Iván Campos. Sin compromiso."),
+ (244780,"ortodoncia-madrid",D,"Ortodoncia invisible, brackets estéticos y metálicos en Las Rosas (San Blas, Madrid). Diagnóstico digital, plan por escrito y financiación hasta 36 meses sin intereses.","Ortodoncia invisible, brackets estéticos y metálicos en Las Rosas (San Blas, Madrid). Diagnóstico digital y financiación hasta 36 meses sin intereses."),
+ (244071,"ortodoncia",D,"Ortodoncia con brackets y alineadores invisibles en Las Rosas, San Blas-Canillejas (Madrid). Estudio personalizado y presupuesto antes de empezar. Pide cita: 913 240 238.","Ortodoncia con brackets y alineadores invisibles en Las Rosas, San Blas-Canillejas (Madrid). Estudio personalizado y presupuesto. Cita: 913 240 238."),
+ (244405,"promociones-aniversario",D,"Promociones de aniversario de Clínica Caracas en Las Rosas, San Blas-Canillejas (Madrid): odontología y medicina estética. Consulta las condiciones y pide cita: 913 240 238.","Promociones de aniversario de Clínica Caracas en Las Rosas (Madrid): odontología y medicina estética. Consulta las condiciones y pide cita: 913 240 238."),
+]

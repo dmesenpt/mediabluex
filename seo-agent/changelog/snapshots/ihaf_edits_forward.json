@@ -1,0 +1,18 @@
+[
+ {
+  "old_content": " \\\"@id\\\": \\\"https://clinicacaracas.es/#clinica\\\",\r\n \\\"name\\\": \\\"Clínica Caracas\\\",\r\n",
+  "new_content": " \\\"@id\\\": \\\"https://clinicacaracas.es/#organization\\\",\r\n"
+ },
+ {
+  "old_content": " \\\"description\\\": \\\"Clínica de odontología estética, implantes, ortodoncia y medicina estética facial en Las Rosas (San Blas-Canillejas), Madrid.\\\",\r\n \\\"url\\\": \\\"https://clinicacaracas.es/\\\",\r\n \\\"image\\\": \\\"https://clinicacaracas.es/wp-content/uploads/2026/08/Clinica-caracas-madrid.png\\\",\r\n \\\"logo\\\": \\\"https://clinicacaracas.es/wp-content/uploads/2026/08/Clinica-caracas-madrid.png\\\",\r\n \\\"telephone\\\": \\\"+34913240238\\\",\r\n \\\"priceRange\\\": \\\"€€\\\",\r\n \\\"address\\\": {\r\n  \\\"@type\\\": \\\"PostalAddress\\\",\r\n  \\\"streetAddress\\\": \\\"Calle Suecia 77\\\",\r\n  \\\"addressLocality\\\": \\\"Madrid\\\",\r\n  \\\"addressRegion\\\": \\\"Comunidad de Madrid\\\",\r\n  \\\"postalCode\\\": \\\"28022\\\",\r\n  \\\"addressCountry\\\": \\\"ES\\\"\r\n },\r\n",
+  "new_content": ""
+ },
+ {
+  "old_content": " \\\"openingHoursSpecification\\\": [\r\n  {\r\n   \\\"@type\\\": \\\"OpeningHoursSpecification\\\",\r\n   \\\"dayOfWeek\\\": [\r\n    \\\"Monday\\\",\r\n    \\\"Tuesday\\\",\r\n    \\\"Wednesday\\\",\r\n    \\\"Thursday\\\",\r\n    \\\"Friday\\\"\r\n   ],\r\n   \\\"opens\\\": \\\"10:00\\\",\r\n   \\\"closes\\\": \\\"14:00\\\"\r\n  },\r\n  {\r\n   \\\"@type\\\": \\\"OpeningHoursSpecification\\\",\r\n   \\\"dayOfWeek\\\": [\r\n    \\\"Monday\\\",\r\n    \\\"Tuesday\\\",\r\n    \\\"Wednesday\\\",\r\n    \\\"Thursday\\\",\r\n    \\\"Friday\\\"\r\n   ],\r\n   \\\"opens\\\": \\\"16:00\\\",\r\n   \\\"closes\\\": \\\"20:00\\\"\r\n  }\r\n ],\r\n",
+  "new_content": ""
+ },
+ {
+  "old_content": " ],\r\n \\\"geo\\\": {\r\n  \\\"@type\\\": \\\"GeoCoordinates\\\",\r\n  \\\"latitude\\\": 40.4314208,\r\n  \\\"longitude\\\": -3.606006\r\n }\r\n}",
+  "new_content": " ]\r\n}"
+ }
+]

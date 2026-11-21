@@ -1,0 +1,120 @@
+{
+  "_comment": "Fuente de verdad del negocio. Datos extraídos del propio sitio el 2026-11-20. El agente NUNCA inventa datos: si algo cambia (teléfono, horario, dirección), se cambia AQUÍ primero.",
+  "site_id": "clinicacaracas",
+  "site_url": "https://clinicacaracas.es",
+  "canonical_host": "clinicacaracas.es",
+  "lang": "es",
+  "business": {
+    "name": "Clínica Caracas",
+    "legal_name": "Jamsa Medical SL",
+    "schema_types_allowed": [
+      "Dentist",
+      "MedicalClinic",
+      "Organization",
+      "Place",
+      "LocalBusiness",
+      "MedicalBusiness"
+    ],
+    "primary_entity_id": "https://clinicacaracas.es/#organization",
+    "address": {
+      "streetAddress": "Calle Suecia 77",
+      "addressLocality": "Madrid",
+      "addressRegion": "Comunidad de Madrid",
+      "postalCode": "28022",
+      "addressCountry": "ES"
+    },
+    "phones": {
+      "main": "+34913240238",
+      "whatsapp": "+34624343802"
+    },
+    "geo": {
+      "latitude": 40.4312016,
+      "longitude": -3.606304
+    },
+    "geo_region": "ES-MD",
+    "opening_hours": [
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "10:00",
+        "closes": "14:00"
+      },
+      {
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "16:00",
+        "closes": "20:00"
+      }
+    ],
+    "gbp_url": "https://maps.google.com/?cid=909166465684734523",
+    "same_as": [
+      "https://maps.google.com/?cid=909166465684734523",
+      "https://www.facebook.com/profile.php?id=61567725112351",
+      "https://www.instagram.com/clinicacaracasmadrid/"
+    ],
+    "service_areas": [
+      "Las Rosas",
+      "Las Musas",
+      "San Blas",
+      "Canillejas",
+      "Rejas",
+      "Madrid"
+    ]
+  },
+  "crawl": {
+    "max_pages": 200,
+    "timeout_s": 25,
+    "check_internal_links": true,
+    "max_link_checks": 400,
+    "exclude_url_patterns": [
+      "/wp-content/",
+      "/wp-admin/",
+      "/feed/",
+      "?"
+    ],
+    "junk_sitemaps": [
+      "liquid-footer",
+      "liquid-mega-menu",
+      "elementor_library",
+      "portfolio",
+      "author"
+    ],
+    "junk_url_patterns": [
+      "/category/uncategorized/",
+      "/liquid-footer/",
+      "/elementor-"
+    ]
+  },
+  "thresholds": {
+    "title_min": 30,
+    "title_max": 70,
+    "description_min": 70,
+    "description_max": 160
+  },
+  "contact_page_patterns": [
+    "/solicitud-de-cita/",
+    "/contacto/"
+  ],
+  "local_landing_keywords": [
+    "las-rosas",
+    "las-musas",
+    "canillejas",
+    "san-blas",
+    "madrid",
+    "rejas"
+  ],
+  "forbidden_terms": [
+    "BESO"
+  ],
+  "_comment_forbidden": "Marcas/nombres ajenos que nunca deben aparecer en títulos ni descripciones (restos de plantillas o negocios anteriores)."
+}

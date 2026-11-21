@@ -1,0 +1,803 @@
+{
+  "site": "https://clinicacaracas.es",
+  "site_id": "clinicacaracas",
+  "generated_at": "2026-11-20T23:32:42+00:00",
+  "pages_crawled": 61,
+  "checks_evaluated": 1405,
+  "score": 96.2,
+  "summary": {
+    "errors": 15,
+    "warnings": 61,
+    "auto_fixable": 76,
+    "manual": 0,
+    "by_check": {
+      "IMG_ALT_DESCRIPTIVE": 29,
+      "TITLE_LENGTH": 15,
+      "META_DESC_PRESENT": 10,
+      "META_DESC_LENGTH": 9,
+      "H1_SINGLE": 4,
+      "SITEMAP_NO_JUNK": 1,
+      "SITEMAP_NO_JUNK_URL": 1,
+      "LOCAL_LANDING_KEYWORD": 1,
+      "SCHEMA_SINGLE_ENTITY": 1,
+      "SCHEMA_PHONE_PRIMARY_FIRST": 1,
+      "SCHEMA_PRICE_CURRENCY": 1,
+      "SCHEMA_HOURS": 1,
+      "SCHEMA_SAMEAS_GBP": 1,
+      "GEO_META_REGION": 1
+    }
+  },
+  "inconclusive": [
+    {
+      "check": "SITE_CANONICAL_HOST",
+      "url": "http://clinicacaracas.es/",
+      "message": "No verificable desde el entorno de ejecución"
+    },
+    {
+      "check": "SITE_CANONICAL_HOST",
+      "url": "http://www.clinicacaracas.es/",
+      "message": "No verificable desde el entorno de ejecución"
+    }
+  ],
+  "issues": [
+    {
+      "check": "H1_SINGLE",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/cheque-aniversario/",
+      "message": "La página tiene 0 H1: []",
+      "fix_hint": "Elementor: cambiar header_size del widget heading (h1<->h2) vía _elementor_data.",
+      "evidence": null
+    },
+    {
+      "check": "H1_SINGLE",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/promociones-aniversario/",
+      "message": "La página tiene 0 H1: []",
+      "fix_hint": "Elementor: cambiar header_size del widget heading (h1<->h2) vía _elementor_data.",
+      "evidence": null
+    },
+    {
+      "check": "H1_SINGLE",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/solicitud-de-cita/",
+      "message": "La página tiene 0 H1: []",
+      "fix_hint": "Elementor: cambiar header_size del widget heading (h1<->h2) vía _elementor_data.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/armonizacion-facial-en-madrid-equilibrio-proporcion-y-resultados-naturales/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/aviso-legal/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/beneficios-del-dermapen-para-que-sirve-el-microneedling-y-que-puede-mejorar/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/medicina-estetica-facial/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/odontologia-estetica/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/uncategorized/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/neuromoduladores-madrid/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/politica-de-cookies/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/politica-de-privacidad/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "META_DESC_PRESENT",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/urgencias-dentales-en-san-blas-madrid-que-hacer-ante-dolor-infeccion-o-un-diente-roto/",
+      "message": "Falta meta description",
+      "fix_hint": "Escribir _yoast_wpseo_metadesc.",
+      "evidence": null
+    },
+    {
+      "check": "SCHEMA_HOURS",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "Horario en schema no coincide. Sobra: [] Falta: [('Friday', '10:00', '14:00'), ('Friday', '16:00', '20:00'), ('Monday', '10:00', '14:00'), ('Monday', '16:00', '20:00'), ('Thursday', '10:00', '14:00'), ('Thursday', '16:00', '20:00'), ('Tuesday', '10:00', '14:00'), ('Tuesday', '16:00', '20:00'), ('Wednesday', '10:00', '14:00'), ('Wednesday', '16:00', '20:00')]",
+      "fix_hint": "",
+      "evidence": null
+    },
+    {
+      "check": "SCHEMA_SINGLE_ENTITY",
+      "severity": "error",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "Hay 2 entidades de negocio local distintas en la portada: ['https://clinicacaracas.es/#clinica', 'https://clinicacaracas.es/#organization']. Google puede interpretarlas como negocios diferentes.",
+      "fix_hint": "Unificar: el bloque manual debe usar \"@id\": \"https://clinicacaracas.es/#organization\" (se fusiona con el de Yoast) o eliminar el duplicado.",
+      "evidence": [
+        "https://clinicacaracas.es/#clinica",
+        "https://clinicacaracas.es/#organization"
+      ]
+    },
+    {
+      "check": "GEO_META_REGION",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "<meta name=geo.region> = «España» (debe ser código ISO 3166-2 «ES-MD»)",
+      "fix_hint": "Yoast Local SEO: wpseo_local -> location_state / país, o filtro del tema.",
+      "evidence": null
+    },
+    {
+      "check": "H1_SINGLE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/urgencias-dentales-en-san-blas-madrid-que-hacer-ante-dolor-infeccion-o-un-diente-roto/",
+      "message": "La página tiene 2 H1: ['Urgencias dentales en San Blas, Madrid: qué hacer ante dolor, infección o un diente roto', '¿Te duele una muela o tienes una urgencia dental?']",
+      "fix_hint": "Elementor: cambiar header_size del widget heading (h1<->h2) vía _elementor_data.",
+      "evidence": null
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/armonizacion-facial-en-madrid-equilibrio-proporcion-y-resultados-naturales/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/aviso-legal/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/beneficios-del-dermapen-para-que-sirve-el-microneedling-y-que-puede-mejorar/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/bioestimuladores-de-colageno-madrid/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/blanqueamiento-dental-madrid-las-rosas/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/carillas-disilicato-madrid-resultado-natural/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/estetica-dental/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/medicina-estetica-facial/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/odontologia-estetica/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/uncategorized/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/cheque-aniversario/",
+      "message": "2 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2026/09/IMG_6748-1024x512.png",
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/cuantas-veces-al-ano-aplicar-botox-cara/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/equipo/",
+      "message": "2 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2026/03/dra-elimar-26B.jpg",
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/medicina-estetica/",
+      "message": "3 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2026/02/CaixaBank_Logo_Payments-Consumer_RGB-2.png",
+        "https://clinicacaracas.es/wp-content/uploads/2026/02/Santander-Consumer.png",
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/mejor-clinica-estetica-madrid/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/neuromoduladores-botox-diferencia-duracion/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/neuromoduladores-botox-madrid-las-rosas/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/neuromoduladores-en-madrid-para-arrugas-de-expresion-que-son-y-que-resultados-esperar/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/odontologia-estetica-madrid-las-rosas/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/odontologia-estetica/",
+      "message": "3 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2026/02/CaixaBank_Logo_Payments-Consumer_RGB-2.png",
+        "https://clinicacaracas.es/wp-content/uploads/2026/02/Santander-Consumer.png",
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/ortodoncia/",
+      "message": "3 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2026/02/CaixaBank_Logo_Payments-Consumer_RGB-2.png",
+        "https://clinicacaracas.es/wp-content/uploads/2026/02/Santander-Consumer.png",
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/politica-de-cookies/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/politica-de-privacidad/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/promociones-aniversario/",
+      "message": "2 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2026/09/ChatGPT-Image-2-sept-2026-03_53_40-p.m.png",
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/rejuvenecimiento-facial-sin-cirugia/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/solicitud-de-cita/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/urgencias-dentales-en-san-blas-madrid-que-hacer-ante-dolor-infeccion-o-un-diente-roto/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "IMG_ALT_DESCRIPTIVE",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/valoracion-medica/",
+      "message": "1 imágenes de contenido con alt vacío",
+      "fix_hint": "Rellenar _wp_attachment_image_alt con descripción + zona cuando proceda.",
+      "evidence": [
+        "https://clinicacaracas.es/wp-content/uploads/2022/04/logo-clinica-caracas-gray.png"
+      ]
+    },
+    {
+      "check": "LOCAL_LANDING_KEYWORD",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/neuromoduladores-botox-madrid-las-rosas/",
+      "message": "Landing local 'neuromoduladores-botox-madrid-las-rosas': la zona «las rosas» no aparece en el título",
+      "fix_hint": "Incluir la zona en _yoast_wpseo_title (servicio + zona + marca).",
+      "evidence": {
+        "title": "Neuromoduladores y Bótox en Madrid | Clínica Caracas",
+        "h1": [
+          "Neuromoduladores en Madrid: tratamiento de líneas de expresión en Clínica Caracas"
+        ]
+      }
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/cheque-aniversario/",
+      "message": "Meta description de 164 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Cheque aniversario de Clínica Caracas en Las Rosas (Madrid) para tratamientos de odontología y medicina estética. Consulta las condiciones y pide cita: 913 240 238."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/dentista-madrid/",
+      "message": "Meta description de 177 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Clínica dental en Madrid (Las Rosas, San Blas): ortodoncia, implantes, carillas y blanqueamiento con la Dra. Elimar Goncalves. Diagnóstico digital y financiación hasta 36 meses."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/implantes-dentales-madrid/",
+      "message": "Meta description de 165 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Implantes dentales en Las Rosas (San Blas, Madrid): unitarios, múltiples y prótesis fija. Diagnóstico digital, presupuesto por escrito y financiación hasta 36 meses."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/medicina-estetica-facial-las-rosas/",
+      "message": "Meta description de 166 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Valoración médica en medicina estética facial en Las Rosas, San Blas (Madrid). Dr. Iván Campos, médico colegiado. Te explicamos opciones, riesgos y plazos. Pide cita."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/medicina-estetica-las-rosas/",
+      "message": "Meta description de 166 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Medicina estética en el barrio de Las Rosas, junto al Metro (L2). Valoración médica con el Dr. Iván Campos: neuromoduladores, ácido hialurónico, skinbooster y ojeras."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/medicina-estetica-madrid/",
+      "message": "Meta description de 170 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Clínica de medicina estética en Madrid (Las Rosas, San Blas). Neuromoduladores, ácido hialurónico, skinbooster y ojeras con el Dr. Iván Campos. Valoración sin compromiso."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/ortodoncia-madrid/",
+      "message": "Meta description de 168 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Ortodoncia invisible, brackets estéticos y metálicos en Las Rosas (San Blas, Madrid). Diagnóstico digital, plan por escrito y financiación hasta 36 meses sin intereses."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/ortodoncia/",
+      "message": "Meta description de 170 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Ortodoncia con brackets y alineadores invisibles en Las Rosas, San Blas-Canillejas (Madrid). Estudio personalizado y presupuesto antes de empezar. Pide cita: 913 240 238."
+    },
+    {
+      "check": "META_DESC_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/promociones-aniversario/",
+      "message": "Meta description de 173 caracteres (rango 70-160)",
+      "fix_hint": "Reescribir _yoast_wpseo_metadesc.",
+      "evidence": "Promociones de aniversario de Clínica Caracas en Las Rosas, San Blas-Canillejas (Madrid): odontología y medicina estética. Consulta las condiciones y pide cita: 913 240 238."
+    },
+    {
+      "check": "SCHEMA_PHONE_PRIMARY_FIRST",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "El teléfono principal +34913240238 no es el primero en telephone: ['+34624343802', '+34913240238']",
+      "fix_hint": "Yoast Local SEO: location_phone = principal, location_phone_2nd = WhatsApp.",
+      "evidence": null
+    },
+    {
+      "check": "SCHEMA_PRICE_CURRENCY",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "priceRange = «$$» usa '$' en un negocio en euros",
+      "fix_hint": "Yoast Local SEO: location_price_range = €€.",
+      "evidence": null
+    },
+    {
+      "check": "SCHEMA_SAMEAS_GBP",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/",
+      "message": "sameAs no enlaza la ficha de Google Business Profile",
+      "fix_hint": "Añadir https://maps.google.com/?cid=909166465684734523 a sameAs.",
+      "evidence": null
+    },
+    {
+      "check": "SITEMAP_NO_JUNK",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/liquid-footer-sitemap.xml",
+      "message": "El sitemap incluye un tipo de contenido que no debe indexarse: https://clinicacaracas.es/liquid-footer-sitemap.xml",
+      "fix_hint": "Yoast: wpseo_titles -> noindex-<post_type>=true y post_types-<pt>-not_in_sitemap, o desactivar 'Mostrar en resultados de búsqueda' para ese tipo de contenido.",
+      "evidence": null
+    },
+    {
+      "check": "SITEMAP_NO_JUNK_URL",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/category/uncategorized/",
+      "message": "URL de poco valor en el sitemap: https://clinicacaracas.es/category/uncategorized/",
+      "fix_hint": "Poner noindex (Yoast) a la taxonomía/término o vaciar/eliminar la categoría 'uncategorized' reasignando entradas.",
+      "evidence": null
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/acido-hialuronico-madrid/",
+      "message": "Título de 72 caracteres (rango 30-70): «Ácido hialurónico en Madrid · Labios, pómulos y surcos | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Ácido hialurónico en Madrid · Labios, pómulos y surcos | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/armonizacion-facial-en-madrid-equilibrio-proporcion-y-resultados-naturales/",
+      "message": "Título de 94 caracteres (rango 30-70): «Armonización facial en Madrid: equilibrio, proporción y resultados naturales - Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Armonización facial en Madrid: equilibrio, proporción y resultados naturales - Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/aviso-legal/",
+      "message": "Título de 29 caracteres (rango 30-70): «Aviso Legal - Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Aviso Legal - Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/beneficios-del-dermapen-para-que-sirve-el-microneedling-y-que-puede-mejorar/",
+      "message": "Título de 96 caracteres (rango 30-70): «Beneficios del Dermapen: ¿para qué sirve el microneedling y qué puede mejorar? - Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Beneficios del Dermapen: ¿para qué sirve el microneedling y qué puede mejorar? - Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/blanqueamiento-dental-madrid/",
+      "message": "Título de 72 caracteres (rango 30-70): «Blanqueamiento dental en Madrid · En clínica y en casa | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Blanqueamiento dental en Madrid · En clínica y en casa | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/dentista-madrid/",
+      "message": "Título de 71 caracteres (rango 30-70): «Dentista en Madrid · Implantes, ortodoncia y carillas | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Dentista en Madrid · Implantes, ortodoncia y carillas | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/equipo/",
+      "message": "Título de 24 caracteres (rango 30-70): «Equipo - Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Equipo - Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/inductores-de-colageno-madrid/",
+      "message": "Título de 72 caracteres (rango 30-70): «Inductores de colágeno en Las Rosas (San Blas), Madrid | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Inductores de colágeno en Las Rosas (San Blas), Madrid | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/medicina-estetica-facial-las-rosas/",
+      "message": "Título de 74 caracteres (rango 30-70): «Medicina estética facial en Las Rosas (San Blas), Madrid | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Medicina estética facial en Las Rosas (San Blas), Madrid | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/neuromoduladores-en-madrid-para-arrugas-de-expresion-que-son-y-que-resultados-esperar/",
+      "message": "Título de 123 caracteres (rango 30-70): «Neuromoduladores en San Blas, Madrid para arrugas y líneas de expresión: Qué son y qué resultados esperar - Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Neuromoduladores en San Blas, Madrid para arrugas y líneas de expresión: Qué son y qué resultados esperar - Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/ortodoncia/",
+      "message": "Título de 72 caracteres (rango 30-70): «Ortodoncia en Las Rosas (Madrid): brackets e invisible – Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Ortodoncia en Las Rosas (Madrid): brackets e invisible – Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/revitalizador-ojeras-madrid/",
+      "message": "Título de 71 caracteres (rango 30-70): «Revitalizador de ojeras en Madrid · Mirada descansada | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Revitalizador de ojeras en Madrid · Mirada descansada | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/skinbooster-madrid/",
+      "message": "Título de 73 caracteres (rango 30-70): «Skinbooster en Madrid · Hidratación profunda de la piel | Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Skinbooster en Madrid · Hidratación profunda de la piel | Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/urgencias-dentales-en-san-blas-madrid-que-hacer-ante-dolor-infeccion-o-un-diente-roto/",
+      "message": "Título de 106 caracteres (rango 30-70): «Urgencias dentales en San Blas, Madrid: qué hacer ante dolor, infección o un diente roto - Clínica Caracas»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Urgencias dentales en San Blas, Madrid: qué hacer ante dolor, infección o un diente roto - Clínica Caracas"
+    },
+    {
+      "check": "TITLE_LENGTH",
+      "severity": "warning",
+      "fixability": "auto",
+      "url": "https://clinicacaracas.es/valoracion-medica/",
+      "message": "Título de 71 caracteres (rango 30-70): «Valoración médica estética online – Clínica Caracas, Las Rosas (Madrid)»",
+      "fix_hint": "Reescribir _yoast_wpseo_title incluyendo servicio + zona.",
+      "evidence": "Valoración médica estética online – Clínica Caracas, Las Rosas (Madrid)"
+    }
+  ]
+}
